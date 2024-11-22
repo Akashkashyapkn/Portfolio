@@ -1,4 +1,10 @@
 /* appling google font over the website  */
+img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
 body{
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
