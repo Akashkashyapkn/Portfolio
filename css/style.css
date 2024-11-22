@@ -384,3 +384,122 @@ footer .link-group a:hover{
     color: #fff;
     animation: pulse 3s infinite;
 }
+/* Default styles (mobile-first approach) */
+
+/* For small devices (portrait tablets and large phones) */
+@media (min-width: 576px) {
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  .navbar-nav {
+    gap: 2rem;
+  }
+
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .service-card {
+    padding: 1rem;
+  }
+
+  .skill-detail h3 {
+    font-size: 1.8rem;
+  }
+}
+
+/* For medium devices (landscape tablets) */
+@media (min-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+
+  .home h2 {
+    font-size: 2.5rem;
+  }
+
+  .home p {
+    font-size: 1.1rem;
+  }
+
+  .service-card .content h4 {
+    font-size: 1.2rem;
+  }
+
+  .progress-card {
+    margin-bottom: 2rem;
+  }
+
+  .contact-details p {
+    font-size: 1rem;
+  }
+}
+
+/* For large devices (desktops and laptops) */
+@media (min-width: 992px) {
+  .navbar-brand {
+    font-size: 2.5rem;
+  }
+
+  .navbar-nav {
+    gap: 3rem;
+  }
+
+  .home h2 {
+    font-size: 3rem;
+  }
+
+  .home p {
+    font-size: 1.2rem;
+  }
+
+  .service-card .content h4 {
+    font-size: 1.5rem;
+  }
+
+  .progress-card .text {
+    font-size: 1.2rem;
+  }
+
+  .contact-details p {
+    font-size: 1.1rem;
+  }
+
+  .portfolio-body .post {
+    margin-bottom: 2rem;
+  }
+}
+
+/* For extra large devices (large desktops) */
+@media (min-width: 1200px) {
+  .navbar-brand {
+    font-size: 3rem;
+  }
+
+  .home h2 {
+    font-size: 3.5rem;
+  }
+
+  .home p {
+    font-size: 1.3rem;
+  }
+
+  .service-card {
+    padding: 2rem;
+  }
+
+  .progress-card .text {
+    font-size: 1.5rem;
+  }
+
+  .portfolio-body .post {
+    margin-bottom: 3rem;
+  }
+}
+
+
