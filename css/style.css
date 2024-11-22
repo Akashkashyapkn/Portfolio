@@ -99,9 +99,9 @@ updated with industry trends and best practices. Versatile and reliable professi
           </a>
 
         </div>
-        <div class="col-10 col-md-4">
-          <img src="images/akash.png" class="img-fluid" alt="Profile Photo" />
-        </div>        
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/akash.png" class="img-fluid" alt="" />
+        </div>
       </div>
     </section>
     <section class="expertise mt-5" id="service">
